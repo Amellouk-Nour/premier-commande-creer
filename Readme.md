@@ -13,7 +13,7 @@ Aucune installation préalable n'est requise à part le téléchargement de l'ex
 ### Commande `run`
 
 ```
-./app.exe run [EXTENSION] [--delete]
+./program.exe run [EXTENSION] [--delete]
 ```
 
 - `[EXTENSION]` : L'extension des fichiers à chercher. Obligatoire.
@@ -22,7 +22,7 @@ Aucune installation préalable n'est requise à part le téléchargement de l'ex
 ### Commande `search`
 
 ```
-./app.exe search [EXTENSION]
+./program.exe search [EXTENSION]
 ```
 
 - `[EXTENSION]` : L'extension des fichiers à chercher dans le répertoire courant.
@@ -30,7 +30,7 @@ Aucune installation préalable n'est requise à part le téléchargement de l'ex
 ### Commande `delete`
 
 ```
-./app.exe delete [EXTENSION]
+./program.exe delete [EXTENSION]
 ```
 
 - `[EXTENSION]` : L'extension des fichiers à supprimer dans le répertoire courant.
@@ -40,13 +40,13 @@ Aucune installation préalable n'est requise à part le téléchargement de l'ex
 Lister les fichiers `.txt` dans le répertoire courant et ses sous-répertoires :
 
 ```
-./app.exe run txt
+./program.exe run txt
 ```
 
 Supprimer tous les fichiers `.log` dans le répertoire courant et ses sous-répertoires :
 
 ```
-./app.exe run log --delete
+./program.exe run log --delete
 ```
 
 ## Contribution
